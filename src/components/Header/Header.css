@@ -1,0 +1,83 @@
+.navbar {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: .25em 1em;
+}
+
+.navbar .list {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+  width: 100%;
+}
+
+.navbar .list li:last-child{
+  margin-left: auto;
+}
+.navbar .logo {
+  display: flex;
+}
+.navbar .logo .img {
+  width: 5em;
+  height: auto;
+  transform: scaleY(0.8);
+}
+
+.header .border {
+  border-right: 1px solid white;
+  padding-right: .25em;
+}
+
+.navbar .responsive {
+  transition: transform 0.1s ease-in-out;
+}
+.navbar .responsive:hover {
+  transform: scale(1.1);
+}
+
+
+.navbar .responsive:hover a{
+  background: linear-gradient(90deg, #ffffff, #f7d117, #ff0000, #f7d117, #ff0000);
+  background-size: 400% 100%;
+  background-position: 0% 0%;
+  animation: flowIn 1s 1 forwards, flowLoop 1s infinite ease-in;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: background-position 1.5s;
+}
+
+.navbar .responsive a:active {
+  background-position: 100% 0%;
+  animation: flowOut 1s forwards;
+}
+
+.navbar .responsive.img:hover{
+  transform: scaleY(0.8) scale(1.1);
+}
+
+@keyframes flowIn {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 75% 0%;
+  }
+}
+@keyframes flowLoop {
+  0% {
+    background-position: 35% 0%;
+  }
+
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+@keyframes flowOut {
+  100% {
+    background-position: 0% 0%;
+  }
+}

@@ -1,0 +1,23 @@
+.studio{
+  text-align: center;
+}
+
+.studio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+.studio .text{
+  text-align: left;
+
+}
+
+
+.studio .map-container{
+  height: 400px;
+  width: 800px;
+  background-color: white;
+  border: 1px solid red;
+}
+

@@ -1,0 +1,38 @@
+.artists{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.artists .head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.5em;
+  padding-bottom: 2em;
+}
+
+.artists .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3em;
+}
+
+.artists .head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .artists .cards {
+    gap: 2em;
+    margin: 1em;
+  }
+}

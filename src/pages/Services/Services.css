@@ -1,0 +1,70 @@
+/* Services Container */
+.services {
+  margin: 0 auto;
+  max-width: 55em;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+/* Service Category */
+.services .category {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Category Headings */
+.services .head {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+  padding-bottom: .25em;
+  margin-bottom: .25em;
+}
+
+/* Service Groups */
+.services .group {
+  display: flex;
+  align-items: center;
+  padding-bottom: .25em;
+  margin-bottom: .25em;
+}
+
+.services .group:not(:last-child) {
+  border-bottom: 2px solid rgba(75, 75, 75, 0.3);
+}
+
+.services p:not(:last-child){
+  margin-bottom: .25em;
+}
+
+.services .left{
+  width: 75%;
+}
+
+.services .fill {
+  width: 100%;
+}
+
+.services .right {
+  margin-left: auto;
+  text-align: right;
+}
+
+.services .left p,
+.services .fill p{
+  margin-left: .25em;
+}
+
+/* List Items within Groups */
+.services .group .list li {
+  margin-left: 2em;
+  list-style: disc;
+}
+
+/* Font Size for Paragraphs and List Items within Groups */
+.services .group .list li {
+  font-size: 0.9em;
+}
+
+

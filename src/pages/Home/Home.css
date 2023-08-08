@@ -1,0 +1,35 @@
+.home{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.home .welcome {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home .logo {
+  width: 500px;
+  height: auto;
+  filter: contrast(1.1) brightness(0.8) drop-shadow(0 0 0.75rem black);
+}
+
+.home .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em
+}
+
+.home .text h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.home .text p {
+  text-align: center;
+  line-height: 2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
