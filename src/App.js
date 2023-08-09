@@ -12,7 +12,7 @@ import Studio from './pages/Studio/Studio';
 
 const App = () => {
   return (
-    <Router basename='/the-golden-pearl'>
+    <Router>
       <div className="app-container">
         <Header />
         <Routes>
