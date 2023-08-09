@@ -9,7 +9,7 @@ const Header = () => {
       <nav className='navbar'>
         <ul className='list'>
           <li>
-            <Link to="/">
+            <Link to="/home">
               <div className="logo">
                 <img className='img responsive' src={logo} alt="Logo" />
                 <div className='border'></div>

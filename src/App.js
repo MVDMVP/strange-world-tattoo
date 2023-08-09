@@ -12,15 +12,15 @@ import Studio from './pages/Studio/Studio';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename='/the-golden-pearl'>
       <div className="app-container">
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/artists" element={<Artists />} />
           <Route path="/services" element={<Services />} />
           <Route path="/process" element={<Process />} />
-          <Route path="/Studio" element={<Studio />} />
+          <Route path="/studio" element={<Studio />} />
         </Routes>
         <Footer />
       </div>

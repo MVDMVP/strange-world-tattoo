@@ -1,8 +1,9 @@
-import React, {useEffect, useState} from 'react';
 import './Studio.css';
 import StudioMap from './StudioMap';
 
 const Studio = () => {
+
+
   return (
     <div className='studio'>
       <div className="text">
