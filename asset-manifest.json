@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/golden-pearl-tattoo/static/css/main.20320124.css",
-    "main.js": "/golden-pearl-tattoo/static/js/main.569c2165.js",
+    "main.css": "/golden-pearl-tattoo/static/css/main.c21d1959.css",
+    "main.js": "/golden-pearl-tattoo/static/js/main.d6234040.js",
     "static/media/logo2.webp": "/golden-pearl-tattoo/static/media/logo2.e91f792e552eab58ec36.webp",
     "static/media/logo.jpg": "/golden-pearl-tattoo/static/media/logo.0f2a360c55e40513ed80.jpg",
     "index.html": "/golden-pearl-tattoo/index.html",
-    "main.20320124.css.map": "/golden-pearl-tattoo/static/css/main.20320124.css.map",
-    "main.569c2165.js.map": "/golden-pearl-tattoo/static/js/main.569c2165.js.map"
+    "main.c21d1959.css.map": "/golden-pearl-tattoo/static/css/main.c21d1959.css.map",
+    "main.d6234040.js.map": "/golden-pearl-tattoo/static/js/main.d6234040.js.map"
   },
   "entrypoints": [
-    "static/css/main.20320124.css",
-    "static/js/main.569c2165.js"
+    "static/css/main.c21d1959.css",
+    "static/js/main.d6234040.js"
   ]
 }
