@@ -10,9 +10,18 @@ const StudioMap = () => {
     lng: -79.67459180990829
   };
 
-
-  return(
-    <div></div>
+  return (
+    <div>
+      <h1>STEFAN LOWKEY GAY ASF!</h1>
+      <iframe className='map'
+        title="Studio Map"
+        width="600"
+        height="450"
+        style={{ border: 0 }}
+        src={`https://www.google.com/maps/embed/v1/place?key=${GOOGLE_MAPS_API_KEY}&q=43.44031222422944,-79.67459180990829`}
+        allowFullScreen
+      ></iframe>
+    </div>
   );
 }
 

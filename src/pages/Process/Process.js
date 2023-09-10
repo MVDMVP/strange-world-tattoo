@@ -4,12 +4,12 @@ import Booking from './Sections/Booking';
 import Preparation from './Sections/Preparation';
 import Aftercare from './Sections/Aftercare';
 import Touchups from './Sections/Touchups';
-import './Process.css'
+import '../../shared/data-display.css';
 
 
 const Process = () => {
   return (
-    <div className='process'>
+    <div className='data-display'>
       <Prebooking />
       <Booking />
       <Preparation />

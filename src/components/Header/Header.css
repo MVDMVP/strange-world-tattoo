@@ -1,4 +1,4 @@
-.navbar {
+.header .navbar {
   display: flex;
   background-color: black;
   justify-content: space-between;
@@ -6,39 +6,65 @@
   padding: .25em 1em;
 }
 
-.navbar .list {
+.header .list {
   display: flex;
   align-items: center;
   gap: 1.5em;
   width: 100%;
 }
 
-.navbar .list li:last-child{
+.header .booking  {
   margin-left: auto;
 }
-.navbar .logo {
+
+
+
+.header .logo-container {
   display: flex;
 }
-.navbar .logo .img {
+.header .img {
   width: 5em;
   height: auto;
   transform: scaleY(0.8);
 }
-
 .header .border {
-  border-right: 1px solid white;
+  border-right: 2px solid white;
   padding-right: .25em;
 }
+.header .icon{
+  width: .5em;
+  height: 1em;
+}
 
-.navbar .responsive {
+.header .expand{
+  display:none;
+  position: absolute;
+  top: auto;
+  background-color: black;
+  padding: 1em;
+  margin-left: -1em;
+  font-size: 0.95em;
+  gap: 0.25em;
+}
+.header .more-menu:hover .expand{
+  display: flex;
+  flex-direction: column;
+}
+.header .expand:hover{
+  display: flex;
+}
+.header .expand li{
+  width: fit-content;
+}
+
+.header .responsive {
   transition: transform 0.1s ease-in-out;
 }
-.navbar .responsive:hover {
-  transform: scale(1.1);
+.header .responsive:hover {
+  transform: scale(1.05);
+  transform-origin: center center;
 }
-
-
-.navbar .responsive:hover a{
+.header .responsive:hover a{
   background: linear-gradient(90deg, #ffffff, #f7d117, #ff0000, #f7d117, #ff0000);
   background-size: 400% 100%;
   background-position: 0% 0%;
@@ -48,13 +74,11 @@
   background-clip: text;
   transition: background-position 1.5s;
 }
-
-.navbar .responsive a:active {
+.header .responsive a:active {
   background-position: 100% 0%;
   animation: flowOut 1s forwards;
 }
-
-.navbar .responsive.img:hover{
+.header .responsive.img:hover{
   transform: scaleY(0.8) scale(1.1);
 }
 
@@ -75,7 +99,6 @@
     background-position: 100% 0%;
   }
 }
-
 @keyframes flowOut {
   100% {
     background-position: 0% 0%;
