@@ -6,7 +6,7 @@ const Touchups = () => {
       <div className="head">
         <h2>TOUCHUPS</h2>
       </div>
-        <p>The Golden Pearl offers one complimentary touch-up within a six-month window from the day of your initial tattoo application. 
+        <p>We offer one complimentary touch-up within a six-month window from the day of your initial tattoo application. 
           We recommend waiting a minimum of two months, allowing your tattooed skin to fully heal, before scheduling your touch-up. 
         </p>
         <div className="group"></div>

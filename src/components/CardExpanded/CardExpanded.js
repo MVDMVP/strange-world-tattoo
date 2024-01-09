@@ -25,7 +25,7 @@ const CardExpanded = (props) => {
       <div className="text">
         <h2>{props.name}</h2>
         <h3>{props.title}</h3>
-        <p>{props.longBio}</p>
+        <p>{props.bio}</p>
       </div>
     </div>
   );

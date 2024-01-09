@@ -1,18 +1,29 @@
 import React from 'react';
 import './Home.css';
-import logo2 from '../../assets/logo2.webp';
+import logo from '../../assets/logo-removebg-preview.png';
 
 const Home = () => {
   return (
     <div className="home">
       <div className="welcome">
         <div>
-          <img className="logo" src={logo2} alt="Logo" />
+          <img src={logo} alt="Logo" />
         </div>
         <div className="text">
-          <h1>WELCOME TO THE GOLDEN PEARL</h1>
+          <h2>WELCOME TO STRANGE WORLD TATTOO</h2>
           <p>
-            Located in the heart of Oakville, The Golden Pearl has been voted the Top Choice Tattoo Shop for four consecutive years! Our team loves hearing about your ideas - big or small. We believe that every tattoo should be as unique as the individual, which is why we will work with you to create a fully personalized tattoo design that you can be proud of. Our number one priority is to provide you with the best tattoo experience in a sterile and friendly environment.
+            Join us in celebrating over 17 years of excellence!</p>
+          <p>
+            Strange World is one of the premiere tattoo shops in Calgary with an incredible line up of experienced and talented artists. Our artists are recognized at an international level, having won numerous awards at both conventions and tattoo festivals around the world!
+          </p>
+          <p>
+            We additionally offer piercing services, our body piercer being professional, friendly, and formally educated on cross contamination, blood born pathogens and more.
+          </p>
+          <p>
+            Most importantly, Strange World utilizes the highest standard of sterilization procedures possible.
+          </p>
+          <p>
+            Come visit us to see why we are Calgary's choice for all your tattoo and piercing needs.
           </p>
         </div>
       </div>

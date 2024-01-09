@@ -1,5 +1,5 @@
 footer{
-  padding: 2em 1em;
+  padding: 1em 1em;
   background-color: black;
   color:white;
 
@@ -31,4 +31,7 @@ footer .icon:hover{
 
 footer .number{
   padding-left: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: .25em;
 }

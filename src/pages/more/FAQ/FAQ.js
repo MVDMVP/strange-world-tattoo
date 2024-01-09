@@ -24,11 +24,6 @@ const FAQ = () => {
         <div className="group"></div>
         <h3>What should I consider when choosing the placement of my tattoo?</h3>
         <p>Think about pain tolerance and how the tattoo might change as your body grows. Avoid visible areas like hands, neck, or face if you're young and unsure about future career implications.</p>
-        
-        <h2 className="head">TIPS!</h2>
-        <p>Don't rush your artist during the tattooing process - it can affect the quality of your tattoo</p>
-        <p>Very large tattoos (eg: full sleeves, back tattoos) often cannot be quoted due to high variance in complexity and customization</p>
-        
       </section>
     </div>
     

@@ -9,11 +9,12 @@ import Artists from './pages/Artists/Artists';
 import Services from './pages/Services/Services';
 import Process from './pages/Process/Process';
 import Studio from './pages/Studio/Studio';
+import Contact from './pages/Contact/Contact'
 
 import Policies from './pages/more/Policies/Policies';
 import FAQ from './pages/more/FAQ/FAQ';
-import Giftcard from './pages/more/Giftcard/Giftcard';
-import Products from './pages/more/Products/Products';
+
+
 
 const App = () => {
   return (
@@ -27,11 +28,9 @@ const App = () => {
           <Route path="/services" element={<Services />} />
           <Route path="/process" element={<Process />} />
           <Route path="/studio" element={<Studio />} />
-          {/*'more' pages*/}
           <Route path="/policies" element={<Policies />} />
           <Route path="/faq" element={<FAQ />} />
-          <Route path="/giftcard" element={<Giftcard />} />
-          <Route path="/products" element={<Products />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
         <Footer />
       </div>

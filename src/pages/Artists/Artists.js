@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './Artists.css';
 import artistsData from './ArtistsData';
-import Card from '../../components/Card/Card';
-import CardExpanded from '../../components/Card/CardExpanded';
+import CardExpanded from '../../components/CardExpanded/CardExpanded';
 
 const Artists = () => {
   const [selectedArtist, setSelectedArtist] = useState(null);
@@ -23,13 +22,23 @@ const Artists = () => {
       </div>
       <div className="cards">
         {artistsData.map((artist) => (
-          <div className="card" key={artist.name} onClick={() => handleClick(artist)}>
-            <Card
-              name={artist.name}
-              title={artist.title}
-              bio={artist.bio}
+          <div className="card" key={artist.shortname} onClick={()=> handleClick(artist)}>
+            <div className="card-image"
+            style={{
+              backgroundImage: `url(../../portfolios/${artist.shortname}/profile.jpeg)`,
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+              width: 'inherit',
+              height: 'inherit',
+              position: 'absolute',
+            }}
             />
-          </div>
+
+            <div className="card-text">
+              <h2>{artist.name}</h2>
+              <h3>{artist.title}</h3>
+            </div>
+          </div>//end card
         ))}
       </div>
 
@@ -38,7 +47,7 @@ const Artists = () => {
           onClose={handleClose}
           name={selectedArtist.name}
           title={selectedArtist.title}
-          longBio={selectedArtist.longBio}
+          bio={selectedArtist.bio}
         />
       )}
     </div>
