@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/strange-world-tattoo/static/css/main.a5e18158.css",
-    "main.js": "/strange-world-tattoo/static/js/main.6755cc83.js",
+    "main.css": "/strange-world-tattoo/static/css/main.01e134fb.css",
+    "main.js": "/strange-world-tattoo/static/js/main.8ec01964.js",
     "static/media/logo-removebg-preview.png": "/strange-world-tattoo/static/media/logo-removebg-preview.b6d70192df07dc49378b.png",
     "index.html": "/strange-world-tattoo/index.html",
-    "main.a5e18158.css.map": "/strange-world-tattoo/static/css/main.a5e18158.css.map",
-    "main.6755cc83.js.map": "/strange-world-tattoo/static/js/main.6755cc83.js.map"
+    "main.01e134fb.css.map": "/strange-world-tattoo/static/css/main.01e134fb.css.map",
+    "main.8ec01964.js.map": "/strange-world-tattoo/static/js/main.8ec01964.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5e18158.css",
-    "static/js/main.6755cc83.js"
+    "static/css/main.01e134fb.css",
+    "static/js/main.8ec01964.js"
   ]
 }
