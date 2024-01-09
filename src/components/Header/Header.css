@@ -16,12 +16,27 @@
   width: 100%;
 }
 
-
 .header .title .text{
   color: #faa0ff;
   font-size: 2.5em;
   font-family: 'Lobster Two',cursive;
+  position: relative;
 
+}
+.header .title .text:after{
+  content: "";
+  position: absolute;
+  background-color: #faa0ff;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  bottom: -2px;
+  transition: transform 0.3s ease;
+  transform: scaleX(0);
+}
+
+.header .title .text:hover:after{
+  transform: scaleX(1.2);
 }
 
 .header .responsive {
@@ -40,6 +55,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   transition: background-position 1.5s;
+  position: relative;
 }
 
 
