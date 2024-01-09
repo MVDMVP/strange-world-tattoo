@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5e18158.css",
-    "main.js": "/static/js/main.364329dc.js",
-    "static/media/logo-removebg-preview.png": "/static/media/logo-removebg-preview.b6d70192df07dc49378b.png",
-    "index.html": "/index.html",
-    "main.a5e18158.css.map": "/static/css/main.a5e18158.css.map",
-    "main.364329dc.js.map": "/static/js/main.364329dc.js.map"
+    "main.css": "/strange-world-tattoo/static/css/main.a5e18158.css",
+    "main.js": "/strange-world-tattoo/static/js/main.6755cc83.js",
+    "static/media/logo-removebg-preview.png": "/strange-world-tattoo/static/media/logo-removebg-preview.b6d70192df07dc49378b.png",
+    "index.html": "/strange-world-tattoo/index.html",
+    "main.a5e18158.css.map": "/strange-world-tattoo/static/css/main.a5e18158.css.map",
+    "main.6755cc83.js.map": "/strange-world-tattoo/static/js/main.6755cc83.js.map"
   },
   "entrypoints": [
     "static/css/main.a5e18158.css",
-    "static/js/main.364329dc.js"
+    "static/js/main.6755cc83.js"
   ]
 }
